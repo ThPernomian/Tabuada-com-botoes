@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: lightskyblue;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s ease-in;
+}
+.btn:hover{
+    background-color: rgb(93, 190, 250);
+}
+pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56vh;
+    font-size: 28px;
+    margin-top: 80px;
+}
+.active{
+    background-color: blue;
+}
